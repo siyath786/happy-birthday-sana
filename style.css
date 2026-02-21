@@ -1,0 +1,617 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.maindiv .hide {
+  display: none;
+}
+.maindiv .show {
+  display: block;
+}
+.maindiv .flex {
+  display: flex;
+}
+.maindiv .transform1 {
+  transform: translate(-50%, -50%);
+  transition-duration: 2s;
+}
+.maindiv {
+  background-color: black;
+  position: fixed;
+  height: 100vh;
+  width: 100%;
+  background-size: cover;
+}
+
+.butt1 {
+  position: absolute;
+  bottom: 4%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 1.3rem;
+  background-color: rgb(255, 80, 139);
+  color: white;
+  font-family: cursive;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-radius: 5px;
+  border: 2px solid black;
+}
+
+.butt2,
+.butt3,
+.butt4,
+.butt5,
+.butt6,
+.butt7 {
+  display: none;
+  position: absolute;
+  bottom: 4%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 1.3rem;
+  background-color: rgb(255, 80, 139);
+  color: white;
+  font-family: cursive;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-radius: 5px;
+  border: 2px solid black;
+}
+
+.imgcont {
+  display: none;
+  justify-content: space-around;
+  align-items: center;
+}
+.bulb1 {
+  width: 50px;
+  transform: rotatez(180deg);
+  animation: blink;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease;
+  animation-delay: 0s;
+}
+.bulb2 {
+  width: 50px;
+  transform: rotatez(180deg);
+  animation: blink;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease;
+  animation-delay: 0.1s;
+}
+.bulb3 {
+  width: 50px;
+  transform: rotatez(180deg);
+  animation: blink;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease;
+  animation-delay: 0.2s;
+}
+.bulb4 {
+  width: 50px;
+  transform: rotatez(180deg);
+  animation: blink;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease;
+  animation-delay: 0.3s;
+}
+.bulb5 {
+  width: 50px;
+  transform: rotatez(180deg);
+  animation: blink;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease;
+  animation-delay: 0.4s;
+}
+.bulb6 {
+  width: 50px;
+  transform: rotatez(180deg);
+  animation: blink;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease;
+  animation-delay: 0.5s;
+}
+.bulb7 {
+  width: 50px;
+  transform: rotatez(180deg);
+  animation: blink;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease;
+  animation-delay: 0.6s;
+}
+.bulb8 {
+  width: 50px;
+  transform: rotatez(180deg);
+  animation: blink;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease;
+  animation-delay: 0.7s;
+}
+
+@keyframes blink {
+  0% {
+    filter: grayscale(0%);
+  }
+  50% {
+    filter: grayscale(100%);
+  }
+  100% {
+    filter: grayscale(0%);
+  }
+}
+
+.decoration {
+  display: none;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+.decorate {
+  width: 90%;
+  margin-top: 6%;
+  animation-name: decorate;
+  animation-duration: 6s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes decorate {
+  0% {
+    transform: rotate(1deg);
+  }
+  50% {
+    transform: scale(1) rotate(-5deg);
+  }
+  100% {
+    transform: rotate(1deg);
+  }
+}
+.seconddiv {
+  display: none;
+}
+.baloon1 {
+  width: 100px;
+  position: absolute;
+  bottom: -250px;
+  left: 5%;
+  animation-name: baloon1;
+  animation-duration: 46s;
+  animation-delay: 0s;
+  animation-iteration-count: 1;
+}
+@keyframes baloon1 {
+  0% {
+    transform: translatey(0px);
+  }
+  100% {
+    transform: translatey(-1600px) rotatez(80deg);
+  }
+}
+.baloon2 {
+  width: 100px;
+  position: absolute;
+  bottom: -350px;
+  right: 7%;
+  animation-name: baloon2;
+  animation-duration: 48s;
+  animation-delay: 0s;
+  animation-iteration-count: 1;
+}
+@keyframes baloon2 {
+  0% {
+    transform: translatey(0px);
+  }
+  100% {
+    transform: translatey(-1600px) rotatez(-40deg);
+  }
+}
+
+.baloon3 {
+  width: 100px;
+  position: absolute;
+  bottom: -300px;
+  left: 5%;
+  animation-name: baloon3;
+  animation-duration: 48s;
+  animation-delay: 2s;
+  animation-iteration-count: 1;
+}
+@keyframes baloon3 {
+  0% {
+    transform: translatey(0px);
+  }
+  100% {
+    transform: translatey(-1600px) rotatez(80deg) translatex(400px);
+  }
+}
+
+.baloon4 {
+  width: 130px;
+  position: absolute;
+  bottom: -300px;
+  left: 5%;
+  animation-name: baloon4;
+  animation-duration: 60s;
+  animation-delay: 4s;
+  animation-iteration-count: 1;
+}
+@keyframes baloon4 {
+  0% {
+    transform: translatey(0px);
+  }
+  100% {
+    transform: translatey(-1600px) rotatez(-80deg) translatex(600px);
+  }
+}
+.baloon5 {
+  width: 100px;
+  position: absolute;
+  bottom: -300px;
+  left: 5%;
+  animation-name: baloon5;
+  animation-duration: 45s;
+  animation-delay: 5s;
+  animation-iteration-count: 1;
+}
+@keyframes baloon5 {
+  0% {
+    transform: translatey(0px);
+  }
+  100% {
+    transform: translatey(-1600px) rotatez(-120deg) translatex(800px);
+  }
+}
+.baloon6 {
+  width: 100px;
+  position: absolute;
+  bottom: -300px;
+  left: 5%;
+  animation-name: baloon6;
+  animation-duration: 45s;
+  animation-delay: 8s;
+  animation-iteration-count: 1;
+}
+@keyframes baloon6 {
+  0% {
+    transform: translatey(0px);
+  }
+  100% {
+    transform: translatey(-1600px) rotatez(200deg) translatex(500px);
+  }
+}
+.baloon7 {
+  width: 110px;
+  position: absolute;
+  bottom: -300px;
+  left: 5%;
+  animation-name: baloon7;
+  animation-duration: 45s;
+  animation-delay: 10s;
+  animation-iteration-count: 1;
+}
+@keyframes baloon7 {
+  0% {
+    transform: translatey(0px);
+  }
+  100% {
+    transform: translatey(-1600px) rotatez(-200deg) translatex(400px);
+  }
+}
+.baloon8 {
+  width: 100px;
+  position: absolute;
+  bottom: -300px;
+  left: 5%;
+  animation-name: baloon8;
+  animation-duration: 45s;
+  animation-delay: 12s;
+  animation-iteration-count: 1;
+}
+@keyframes baloon8 {
+  0% {
+    transform: translatey(0px);
+  }
+  100% {
+    transform: translatey(-1600px) rotatez(-120deg) translatex(800px);
+  }
+}
+.baloon9 {
+  width: 100px;
+  position: absolute;
+  bottom: -300px;
+  left: 5%;
+  animation-name: baloon9;
+  animation-duration: 45s;
+  animation-delay: 14s;
+  animation-iteration-count: 1;
+}
+@keyframes baloon9 {
+  0% {
+    transform: translatey(0px);
+  }
+  100% {
+    transform: translatey(-1600px) rotatez(120deg) translatex(400px);
+  }
+}
+.baloon10 {
+  width: 130px;
+  position: absolute;
+  bottom: -300px;
+  left: 5%;
+  animation-name: baloon10;
+  animation-duration: 60s;
+  animation-delay: 16s;
+  animation-iteration-count: 1;
+}
+@keyframes baloon10 {
+  0% {
+    transform: translatey(0px);
+  }
+  100% {
+    transform: translatey(-1600px) rotatez(-80deg) translatex(450px);
+  }
+}
+.baloon11 {
+  width: 100px;
+  position: absolute;
+  bottom: -300px;
+  left: 5%;
+  animation-name: baloon11;
+  animation-duration: 45s;
+  animation-delay: 17s;
+  animation-iteration-count: 1;
+}
+@keyframes baloon11 {
+  0% {
+    transform: translatey(0px);
+  }
+  100% {
+    transform: translatey(-1600px) rotatez(-40deg) translateX(800px);
+  }
+}
+
+.baloon12 {
+  width: 100px;
+  position: absolute;
+  bottom: -300px;
+  left: 5%;
+  animation-name: baloon12;
+  animation-duration: 40s;
+  animation-delay: 20s;
+  animation-iteration-count: 1;
+}
+@keyframes baloon12 {
+  0% {
+    transform: translatey(0px);
+  }
+  100% {
+    transform: translatey(-1400px) rotatez(40deg);
+  }
+}
+
+@media screen and (min-width: 765px) {
+  .decorate {
+    width: 30%;
+  }
+}
+
+.cake0 {
+  position: absolute;
+  top: 62%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: -1;
+}
+
+.cake {
+  display: none;
+  position: relative;
+  width: 210px;
+  height: 150px;
+  background: #5b2a16; /* dark chocolate */
+  border-radius: 0 0 10px 10px;
+}
+
+/* Cake layers */
+.cake::before,
+.cake::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  width: 100%;
+  height: 20px;
+  background: #b7978f; /* lighter cream layer */
+}
+.cake::before {
+  top: 50px;
+}
+.cake::after {
+  top: 100px;
+}
+
+/* Cream topping */
+.cream {
+  position: absolute;
+  top: -25px;
+  left: 0;
+  width: 100%;
+  height: 60px;
+  background: #f1f1f1;
+  border-radius: 50% 50% 0 0;
+  z-index: 2;
+}
+.cream::after {
+  content: "";
+  position: absolute;
+  right: 40px;
+  bottom: -15px;
+  width: 25px;
+  height: 25px;
+  background: #f1f1f1;
+  border-radius: 50%;
+}
+.cream::before {
+  content: "";
+  position: absolute;
+  right: 60px;
+  bottom: -35px;
+  width: 20px;
+  height: 40px;
+  background: #f1f1f1;
+  border-radius: 20px;
+}
+
+/* Candle */
+.candle {
+  display: none;
+  position: absolute;
+  top: -81px; /* sits above cake */
+  left: 50%;
+  transform: translateX(-50%);
+  width: 20px;
+  height: 60px;
+  background: repeating-linear-gradient(
+    to bottom,
+    #fff 0 10px,
+    #ff758c 10px 20px,
+    #fff 20px 30px,
+    #f8c16c 30px 40px,
+    #fff 40px 50px,
+    #ff758c 50px 60px
+  );
+  border-radius: 5px;
+  z-index: -2; /* ensure candle is visible */
+}
+
+/* Flame */
+.flame {
+  display: none;
+  position: absolute;
+  top: -116px; /* above candle */
+  left: 50%;
+  transform: translateX(-50%);
+  width: 18px;
+  height: 35px;
+  background: radial-gradient(
+    ellipse at center,
+    #fff8b3 20%,
+    #fbd24d 60%,
+    #ff9a00 90%
+  );
+  border-radius: 50%;
+  animation: flicker 0.2s infinite alternate;
+  box-shadow: 0 0 15px 5px rgba(255, 180, 0, 0.6);
+  z-index: 4; /* flame above all */
+}
+
+@keyframes flicker {
+  from {
+    transform: translateX(-50%) scale(1);
+    opacity: 0.85;
+  }
+  to {
+    transform: translateX(-50%) scale(1.15);
+    opacity: 1;
+  }
+}
+.last1,
+.last2,
+.last3,
+.last4,
+.last5,
+.last6,
+.last7,
+.last8,
+.last9,
+.last10,
+.last11,
+.last12,
+.last13,
+.last14,
+.last15 {
+  width: 90%;
+  position: absolute;
+  bottom: 12%;
+  left: 50%;
+  transform: translatex(-50%);
+}
+
+.message1,
+.message2,
+.message3,
+.message4,
+.message5,
+.message6,
+.message7,
+.message8,
+.message9,
+.message10,
+.message11,
+.message12,
+.message13,
+.message14,
+.message15 {
+  display: none;
+  color: rgb(234, 255, 0);
+  font-size: 2.4rem;
+  font-family: courgette;
+  -webkit-text-stroke: 0.1px rgba(255, 255, 255, 0.54);
+  text-align: center;
+}
+
+.imgcont0 {
+  z-index: -10;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  bottom: 30%;
+  left: 50%;
+  transform: translate(-50%);
+}
+
+.bimg1 {
+  display: none;
+  width: 330px;
+  position: absolute;
+  border-radius: 10px;
+}
+.bimg2 {
+  display: none;
+  width: 290px;
+  position: absolute;
+  border-radius: 10px;
+}
+.bimg3 {
+  display: none;
+  width: 330px;
+  position: absolute;
+  border-radius: 10px;
+}
+
+.bimg4 {
+  display: none;
+  width: 330px;
+  position: absolute;
+  border-radius: 10px;
+}
+.bimg5 {
+  display: none;
+  width: 290px;
+  position: absolute;
+  border-radius: 10px;
+}
