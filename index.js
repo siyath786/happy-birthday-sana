@@ -181,50 +181,48 @@ butt7.addEventListener("click", function () {
   }, 7000);
 
   setTimeout(function () {
-    vid1.classList.add("show");
+    bimg4.classList.add("show");
     bimg2.classList.remove("show");
   }, 11000);
 
   setTimeout(function () {
-    bimg4.classList.add("show");
-    vid1.classList.remove("show");
-  }, 12500);
-  setTimeout(function () {
     bimg3.classList.add("show");
     bimg4.classList.remove("show");
-  }, 17000);
+  }, 15000);
+  setTimeout(function () {
+    bimg6.classList.add("show");
+    bimg3.classList.remove("show");
+  }, 19000);
 
   setTimeout(function () {
     message1.classList.add("show");
-    bimg6.classList.add("show");
-    bimg3.classList.remove("show");
-  }, 21000);
+    bimg7.classList.add("show");
+    bimg6.classList.remove("show");
+  }, 23000);
   setTimeout(function () {
     message2.classList.add("show");
     message1.classList.remove("show");
-    bimg7.classList.add("show");
-    bimg6.classList.remove("show");
-  }, 25000);
+    vid2.classList.add("show");
+    bimg7.classList.remove("show");
+  }, 27000);
   setTimeout(function () {
     message3.classList.add("show");
     message2.classList.remove("show");
-    vid2.classList.add("show");
-    bimg7.classList.remove("show");
-  }, 29000);
+    bimg5.classList.add("show");
+    vid2.classList.remove("show");
+  }, 31000);
   setTimeout(function () {
     message4.classList.add("show");
     message3.classList.remove("show");
-    bimg5.classList.add("show");
-    vid2.classList.remove("show");
-  }, 33000);
+  }, 34000);
   setTimeout(function () {
     message5.classList.add("show");
     message4.classList.remove("show");
-  }, 36000);
+  }, 37000);
   setTimeout(function () {
     message6.classList.add("show");
     message5.classList.remove("show");
-  }, 39000);
+  }, 40000);
   setTimeout(function () {
     message7.classList.add("show");
     message6.classList.remove("show");
