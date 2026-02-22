@@ -537,12 +537,7 @@
 .last7,
 .last8,
 .last9,
-.last10,
-.last11,
-.last12,
-.last13,
-.last14,
-.last15 {
+.last10 {
   width: 90%;
   position: absolute;
   bottom: 12%;
@@ -559,12 +554,7 @@
 .message7,
 .message8,
 .message9,
-.message10,
-.message11,
-.message12,
-.message13,
-.message14,
-.message15 {
+.message10 {
   display: none;
   color: rgb(234, 255, 0);
   font-size: 2.4rem;

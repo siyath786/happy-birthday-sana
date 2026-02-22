@@ -36,7 +36,6 @@ let message7 = document.querySelector(".message7");
 let message8 = document.querySelector(".message8");
 let message9 = document.querySelector(".message9");
 let message10 = document.querySelector(".message10");
-let message11 = document.querySelector(".message11");
 
 butt1.addEventListener("click", function (event) {
   event.preventDefault();
@@ -108,6 +107,7 @@ butt4.addEventListener("click", function (event) {
 });
 
 butt5.addEventListener("click", function () {
+  event.preventDefault();
   butt5.classList.remove("show");
   cake.classList.add("show");
   butt6.classList.add("show");
@@ -138,6 +138,7 @@ butt5.addEventListener("click", function () {
 });
 
 butt6.addEventListener("click", function () {
+  event.preventDefault();
   butt6.classList.remove("show");
   flame.classList.add("show");
   butt7.classList.add("show");
@@ -158,6 +159,7 @@ butt6.addEventListener("click", function () {
 });
 
 butt7.addEventListener("click", function () {
+  event.preventDefault();
   butt7.classList.remove("show");
   setTimeout(function () {
     candle.classList.remove("show");
@@ -226,10 +228,6 @@ butt7.addEventListener("click", function () {
     message10.classList.add("show");
     message9.classList.remove("show");
   }, 63000);
-  setTimeout(function () {
-    message11.classList.add("show");
-    message10.classList.remove("show");
-  }, 67000);
 
   gsap.to(".cake", {
     y: 30,
