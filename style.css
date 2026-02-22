@@ -556,7 +556,7 @@
 .message9,
 .message10 {
   display: none;
-  color: rgb(234, 255, 0);
+  color: rgb(229, 255, 0);
   font-size: 2.4rem;
   font-family: courgette;
   -webkit-text-stroke: 0.1px rgba(255, 255, 255, 0.54);
@@ -600,6 +600,31 @@
   border-radius: 10px;
 }
 .bimg5 {
+  display: none;
+  width: 290px;
+  position: absolute;
+  border-radius: 10px;
+}
+.bimg6 {
+  display: none;
+  width: 320px;
+  position: absolute;
+  border-radius: 10px;
+}
+.bimg7 {
+  display: none;
+  width: 270px;
+  position: absolute;
+  border-radius: 10px;
+}
+.vid1 {
+  display: none;
+  width: 290px;
+  position: absolute;
+  border-radius: 10px;
+}
+
+.vid2 {
   display: none;
   width: 290px;
   position: absolute;
